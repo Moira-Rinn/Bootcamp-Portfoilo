@@ -17,12 +17,14 @@ a {
 ul {
   list-style: none;
 }
+h3 {
+  font-size: 16px;
+}
 
 .wrapper {
   width: 800px;
   background: radial-gradient(circle, #6f5964, #19090d 100%);
 }
-
 .card {
   background-image: linear-gradient(to right, #f5f4f4, #9c8b96);
   margin: 10px;
@@ -41,10 +43,6 @@ header h2 {
   font-weight: 600;
 }
 
-h3 {
-  font-size: 16px;
-}
-
 .intro {
   display: flex;
   align-items: center;
@@ -57,6 +55,7 @@ h3 {
   border: 5px solid #c0c0c0;
   margin: 15px 10px;
 }
+
 .about {
   height: 237px;
   font-size: 12px;
@@ -99,16 +98,12 @@ main h3 {
   padding: 10px;
 }
 
-.content .card ul {
-  /* display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly; */
+.content > .card > ul {
   padding: 10px 10px 10px 20px;
 }
 
 .content .card ul li {
   display: inline-block;
-  /* text-align: center; */
 }
 .content .card img {
   max-width: 100%;
